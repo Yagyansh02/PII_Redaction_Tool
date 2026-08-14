@@ -43,6 +43,15 @@ ROLE_WORDS = {
     "managing", "director", "contact", "person", "registered", "office", "promoter",
     "regional", "language", "village", "taluka", "district", "details", "below",
 }
+TRANSACTION_NAME_RE = re.compile(
+    r"(?:\bto|\bfrom|\band|,)\s+"
+    r"([A-Z][A-Za-z'’-]+(?:\s+(?:[A-Z]\.|[A-Z][A-Za-z'’-]+)){1,3})"
+    r"(?=\s*(?:,|\band\b|\bfrom\b|\bto\b|\.|$))"
+)
+NON_PERSON_TRANSACTION_TOKENS = {
+    "family", "trust", "huf", "limited", "ltd", "llp", "llc", "bank", "company",
+    "portion", "qib", "nii", "rii",
+}
 PARTY_SUFFIXES = {
     "Private Limited", "Public Limited", "Pvt. Ltd.", "Pvt Ltd", "Limited", "Ltd.",
     "LLP", "L.L.P.", "Trust", "Bank N.A.", "Bank Limited", "Bank of India", "N.A.",
@@ -360,8 +369,7 @@ class GazetteerBuilder:
                     continue
                 gazetteer.add(candidate, "PERSON", source, 0.98)
 
-    @staticmethod
-    def _seed_transaction_people(gazetteer: EntityGazetteer, text: str) -> None:
+    def _seed_transaction_people(self, gazetteer: EntityGazetteer, text: str) -> None:
         for trigger in re.finditer(
             r"\b(?:transfer\s+of\s+shares|allotted\s+to|initial\s+subscription)\b", text, re.I
         ):
@@ -370,6 +378,17 @@ class GazetteerBuilder:
                 candidate = match.group(0)
                 if candidate.casefold() not in {"qib portion", "nii portion", "rii portion"}:
                     gazetteer.add(candidate, "PERSON", "transaction", 0.97)
+            # Full first-name/surname parties in these transfer/allotment lists
+            # (e.g. "transfer of shares to Kushal Hegde from Jayaram Shetty")
+            # are frequently mislabelled as ORG, or missed outright, by the
+            # smaller spaCy model used in the deployed web runtime. Recover
+            # them directly from the list structure instead of relying on NER.
+            for match in TRANSACTION_NAME_RE.finditer(window):
+                candidate = re.sub(r"\s+", " ", match.group(1)).strip()
+                tokens = {token.casefold().strip(".") for token in candidate.split()}
+                if tokens & NON_PERSON_TRANSACTION_TOKENS or self._veto_person(candidate):
+                    continue
+                gazetteer.add(candidate, "PERSON", "transaction", 0.97)
 
     def _seed_companies(self, gazetteer: EntityGazetteer, text: str) -> None:
         for match in self.company_re.finditer(text):

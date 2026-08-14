@@ -41,6 +41,29 @@ def test_international_legal_suffixes_and_ampersands_are_whole_companies() -> No
     assert {"Alpha Inc.", "Beta LLC"} <= companies
 
 
+def test_transaction_share_transfers_recover_full_name_parties() -> None:
+    # These list-style "transfer of shares to X from Y" sentences are where
+    # the smaller spaCy model used in the deployed web runtime frequently
+    # mislabels a first-name/surname party as ORG (or misses it outright),
+    # so this recovery must not depend on NER at all.
+    builder = GazetteerBuilder(
+        Allowlist(),
+        Path(__file__).resolve().parents[1] / "pii_redactor" / "resources" / "org_suffixes.txt",
+        "parties",
+    )
+    gazetteer = EntityGazetteer()
+    text = (
+        "Form 7B for transfer of shares to Kushal Hegde from Jayaram Shetty. "
+        "Form 7B for transfer of shares to Karunakar Hegde HUF from Karunakar Hegde. "
+        "Form 7B for transfer of shares to Rajesh Kushal Hegde from Narayana B. Shetty "
+        "and Dhaulagiri Family Trust."
+    )
+    builder._seed_transaction_people(gazetteer, text)
+    people = {entry.canonical for entry in gazetteer.by_type("PERSON")}
+    assert {"Kushal Hegde", "Jayaram Shetty", "Karunakar Hegde", "Narayana B. Shetty"} <= people
+    assert not any("HUF" in name or "Trust" in name for name in people)
+
+
 def test_definition_table_links_company_short_alias() -> None:
     gazetteer = EntityGazetteer()
     gazetteer.add("Nuvama Wealth Management Limited", "COMPANY", "suffix", 0.96)

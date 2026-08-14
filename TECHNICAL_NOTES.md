@@ -37,15 +37,18 @@ audit. The frontend defaults to `image-policy=all`, the safest behavior when
 users do not need non-confidential illustrations preserved.
 
 `Dockerfile` installs the native Tesseract and zbar commands and launches one
-Uvicorn worker. `render.yaml` configures a Render Docker web service and `/health`
-probe. The cloud image installs `requirements-cloud.txt` with `en_core_web_sm`
-to target a 512 MB demonstration instance; peak memory still depends on the
-uploaded document and must be monitored. The reference CLI/evaluation
-environment continues to use `requirements.txt` and `en_core_web_lg`; the
-published metrics therefore describe the large-model reference run, not a new
-cloud-model evaluation. Public demo hosting is not appropriate for real
-confidential documents without authentication, access controls, provider/DPA
-review, retention/log review, abuse controls, and a fresh security assessment.
+Uvicorn worker, exposing a `/health` probe. The cloud image installs
+`requirements-cloud.txt` with `en_core_web_lg`, matching the reference
+CLI/evaluation environment (`requirements.txt`), so the published metrics
+describe the same model that actually serves requests in production; peak
+memory still depends on the uploaded document and must be monitored. The host
+must be sized for `en_core_web_lg` (~1.5-2 GB RAM at model-load time, ~560 MB
+on disk for the model artifacts) — a free/demo-tier instance capped near
+512 MB will OOM. `SpacyNerDetector` caches the loaded model at process scope
+(`pii_redactor/detectors/ner.py`) so it is loaded once per worker process, not
+once per request. Public demo hosting is not appropriate for real confidential
+documents without authentication, access controls, provider/DPA review,
+retention/log review, abuse controls, and a fresh security assessment.
 
 Use `--dry-run` for counts without writing a DOCX, `--no-ner` to run without the spaCy NER model, and `--types EMAIL,PHONE,...` to restrict the text policy. `--debug-block p012809` (or a text substring) prints every spaCy/pipeline candidate for matching records, including its producer, accept/reject status, and exact rule. `--image-policy all` redacts every raster without OCR classification; `--image-policy none` explicitly leaves images unchanged. A completed run adds the custom Word property `PiiRedactorVersion`; rerunning it is a safe no-op unless `--force` is given.
 

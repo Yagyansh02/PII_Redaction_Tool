@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import re
+from functools import lru_cache
+from typing import Any
 
 from ..config import TYPE_PRIORITIES
 from ..spans import Span
@@ -19,7 +21,7 @@ ORG_SUFFIX_RE = re.compile(
 PERSON_VETO_TOKENS = {
     "account", "address", "ahilyanagar", "bank", "bhavan", "bidder", "bidders", "branch", "building", "cagr",
     "apartment", "birdewadi", "cap", "chakan", "chambers", "city", "company", "conductors", "corporation", "depository",
-    "district", "facility", "floor", "fund", "house", "industrial", "language", "listing",
+    "district", "facility", "floor", "fund", "house", "huf", "industrial", "language", "listing",
     "lok", "margin", "mauje", "nagar", "newspaper", "office", "parel", "park", "participant", "pat",
     "marg", "no", "price", "regional", "registration", "sabha", "scheme", "sebi", "sector", "showroom", "supa", "suraksha",
     "taluka", "transformer", "trust", "urja",
@@ -48,6 +50,27 @@ PUBLIC_BARE_DOMAINS = {"sec.gov", "sebi.gov.in", "pcaob.org"}
 TABLE_FOOTNOTE_RE = re.compile(r"[ \u00A0]+\d+(?:\s*,\s*\d+)*\s*$")
 
 
+@lru_cache(maxsize=1)
+def _load_spacy_model() -> tuple[Any | None, str]:
+    """Load the spaCy model once per process and reuse it across requests.
+
+    Each web request builds a fresh SpacyNerDetector; without this cache
+    every request would re-load the model from disk (multi-second latency
+    and repeated large allocations with en_core_web_lg).
+    """
+
+    try:
+        import spacy
+    except ImportError:
+        return None, "unavailable"
+    for model_name in ("en_core_web_lg", "en_core_web_md", "en_core_web_sm"):
+        try:
+            return spacy.load(model_name, disable=["tagger", "parser", "lemmatizer"]), model_name
+        except OSError:
+            continue
+    return None, "unavailable"
+
+
 class SpacyNerDetector(Detector):
     pii_type = "NER"
     priority = 75
@@ -70,20 +93,7 @@ class SpacyNerDetector(Detector):
         }
         self.lowercase_vocabulary = lowercase_vocabulary or set()
         self.last_trace: list[dict[str, object]] = []
-        self.nlp = None
-        self.model_name = "unavailable"
-        try:
-            import spacy
-
-            for model_name in ("en_core_web_lg", "en_core_web_md", "en_core_web_sm"):
-                try:
-                    self.nlp = spacy.load(model_name, disable=["tagger", "parser", "lemmatizer"])
-                    self.model_name = model_name
-                    break
-                except OSError:
-                    continue
-        except ImportError:
-            self.nlp = None
+        self.nlp, self.model_name = _load_spacy_model()
 
     @property
     def available(self) -> bool:

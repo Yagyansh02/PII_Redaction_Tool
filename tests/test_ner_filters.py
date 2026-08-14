@@ -75,3 +75,13 @@ def test_prospectus_bidder_terms_are_not_person_candidates() -> None:
         assert any(
             trace["rule"] == "person_veto_token" for trace in detector.last_trace
         )
+
+
+def test_huf_shareholder_entities_are_not_person_candidates() -> None:
+    for phrase in ("Rajesh Kumar Sharma HUF", "Kishor Mehta HUF"):
+        text = f"{phrase} holds Equity Shares as disclosed in the shareholding pattern."
+        detector = detector_for(text, phrase, "PERSON", set())
+        assert detector.detect(text) == []
+        assert any(
+            trace["rule"] == "person_veto_token" for trace in detector.last_trace
+        )
