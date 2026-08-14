@@ -91,10 +91,6 @@ form.addEventListener("submit", async (event) => {
 
   const body = new FormData();
   body.append("document", selectedFile, selectedFile.name);
-  body.append("company_scope", document.querySelector("#company-scope").value);
-  body.append("image_policy", document.querySelector("#image-policy").value);
-  body.append("use_ner", String(document.querySelector("#use-ner").checked));
-  body.append("seed", document.querySelector("#seed").value || "42");
 
   try {
     const response = await fetch("/api/redact", { method: "POST", body });

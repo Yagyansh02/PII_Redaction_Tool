@@ -39,42 +39,6 @@
             <button class="choose-button" type="button" tabindex="-1">Choose file</button>
           </div>
 
-          <div class="options-grid">
-            <label>
-              <span>Company redaction</span>
-              <select id="company-scope" name="company_scope">
-                <option value="all">All detected companies</option>
-                <option value="parties">Document parties only</option>
-                <option value="none">Do not redact companies</option>
-              </select>
-            </label>
-            <label>
-              <span>Embedded images</span>
-              <select id="image-policy" name="image_policy">
-                <option value="all">Redact all images — safest</option>
-                <option value="sensitive">Inspect and redact sensitive images</option>
-                <option value="none">Keep all images</option>
-              </select>
-            </label>
-          </div>
-
-          <details class="advanced">
-            <summary>Advanced settings</summary>
-            <div class="advanced-content">
-              <label class="check-row">
-                <input id="use-ner" type="checkbox" checked>
-                <span>
-                  <strong>Supplement rules with local NER</strong>
-                  <small>Improves recall for names and suffixless brands.</small>
-                </span>
-              </label>
-              <label class="seed-field">
-                <span>Deterministic seed</span>
-                <input id="seed" name="seed" type="number" min="0" max="2147483647" value="42" inputmode="numeric">
-              </label>
-            </div>
-          </details>
-
           <div class="action-row">
             <p><strong>Private by design.</strong> The server deletes its temporary copy after the response completes.</p>
             <button id="submit-button" class="submit-button" type="submit" disabled>
