@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import logging
 import re
 from dataclasses import dataclass
 from datetime import date
@@ -14,13 +15,29 @@ from urllib.parse import urlsplit
 from .spans import Span
 
 
+LOGGER = logging.getLogger(__name__)
+
+
 FALLBACK_FIRST = (
     "Aarav", "Aditi", "Arjun", "Diya", "Ishaan", "Kavya", "Meera", "Neha",
     "Rohan", "Saanvi", "Siddharth", "Tanvi", "Varun", "Zoya",
 )
 FALLBACK_LAST = (
+    # Common Indian surnames kept for variety (some may be protected in a given doc)
     "Bose", "Desai", "Gupta", "Iyer", "Joshi", "Kapoor", "Mehta", "Nair",
     "Patel", "Rao", "Shah", "Sharma", "Verma",
+    # Extended set — less common, unlikely to appear as director names in prospectuses
+    "Agarwal", "Anand", "Bajaj", "Bhatnagar", "Chandra", "Choudhary",
+    "Deshpande", "Dubey", "Garg", "Goswami", "Hegde", "Kulkarni",
+    "Lal", "Malhotra", "Menon", "Mishra", "Mitra", "Mukherjee",
+    "Naik", "Narayanan", "Pandey", "Pillai", "Prasad", "Rajan",
+    "Ramakrishnan", "Reddy", "Saxena", "Singh", "Sinha", "Sriram",
+    "Subramaniam", "Trivedi", "Tyagi", "Upadhyay", "Venkatesan", "Yadav",
+    # Rare/fictional-style surnames for last-resort fallback
+    "Antarkar", "Bhavsar", "Chitre", "Datar", "Ekbote", "Fulzele",
+    "Gadkari", "Hadkar", "Ingale", "Jamdar", "Kanitkar", "Limaye",
+    "Mandke", "Nagare", "Otari", "Paralkar", "Ranade", "Suryavanshi",
+    "Tulpule", "Udgaonkar", "Vaidya", "Wadekar", "Yeolekar", "Zodge",
 )
 COMPANY_WORDS = (
     "Aster", "Bluepeak", "Cedar", "Crestview", "Evergreen", "Horizon", "Meridian",
@@ -290,7 +307,23 @@ class SurrogateStore:
                 if value.casefold() not in self.protected_person_surnames
             ]
             if not safe_last:
-                raise ValueError("no safe fallback person surnames remain")
+                # All known fallback surnames are protected in this document;
+                # generate a synthetic surname from the RNG so the pipeline
+                # never crashes on large documents with many distinct persons.
+                LOGGER.warning(
+                    "All fallback person surnames are protected; using synthetic surname."
+                )
+                consonants = "bcdfghjklmnprstvwy"
+                vowels = "aeiou"
+                synth = (
+                    rng.choice(consonants).upper()
+                    + rng.choice(vowels)
+                    + rng.choice(consonants)
+                    + rng.choice(vowels)
+                    + rng.choice(consonants)
+                    + "ar"
+                )
+                return f"{rng.choice(FALLBACK_FIRST)} {synth}"
             return f"{rng.choice(FALLBACK_FIRST)} {rng.choice(safe_last)}"
         if pii_type == "COMPANY":
             return f"{rng.choice(COMPANY_WORDS)} {rng.choice(COMPANY_NOUNS)}"
@@ -320,8 +353,13 @@ class SurrogateStore:
                 if value.casefold() not in self.protected_person_surnames
             ]
             if not safe_last:
-                raise ValueError("no safe fallback e-mail surnames remain")
-            last = known_aliases[-1] if len(known_aliases) > 1 else rng.choice(safe_last).lower()
+                LOGGER.warning(
+                    "All fallback e-mail surnames are protected; using first token only."
+                )
+                last = (known_aliases[-1] if len(known_aliases) > 1
+                        else rng.choice(FALLBACK_FIRST).lower())
+            else:
+                last = known_aliases[-1] if len(known_aliases) > 1 else rng.choice(safe_last).lower()
             return f"{first}.{last}@example.com"
         if pii_type == "URL":
             return (

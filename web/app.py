@@ -274,10 +274,10 @@ async def redact_document(request: Request) -> FileResponse:
         raise
     except (FileNotFoundError, ValueError) as error:
         _remove_workspace(workspace)
-        LOGGER.info("A DOCX redaction request was rejected: %s", type(error).__name__)
+        LOGGER.exception("DOCX redaction pipeline error: %s: %s", type(error).__name__, error)
         raise HTTPException(
-            422,
-            "The document could not be processed with the selected redaction policy.",
+            500,
+            "The document could not be processed. Please try again or contact support.",
         ) from error
     except Exception as error:
         _remove_workspace(workspace)
