@@ -65,3 +65,13 @@ def test_bare_name_tld_is_company_candidate_not_url() -> None:
         detector = detector_for(value, value, "ORG", set())
         spans = detector.detect(value)
         assert any(span.pii_type == "COMPANY" and span.text == value for span in spans)
+
+
+def test_prospectus_bidder_terms_are_not_person_candidates() -> None:
+    for phrase in ("Anchor Investor Bidders", "Eligible Bidders", "QIB Bidders"):
+        text = f"{phrase} shall submit Bids through the electronic system."
+        detector = detector_for(text, phrase, "PERSON", set())
+        assert detector.detect(text) == []
+        assert any(
+            trace["rule"] == "person_veto_token" for trace in detector.last_trace
+        )

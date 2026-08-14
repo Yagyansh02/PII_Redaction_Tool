@@ -17,7 +17,7 @@ ORG_SUFFIX_RE = re.compile(
     re.I,
 )
 PERSON_VETO_TOKENS = {
-    "account", "address", "ahilyanagar", "bank", "bhavan", "branch", "building", "cagr",
+    "account", "address", "ahilyanagar", "bank", "bhavan", "bidder", "bidders", "branch", "building", "cagr",
     "apartment", "birdewadi", "cap", "chakan", "chambers", "city", "company", "conductors", "corporation", "depository",
     "district", "facility", "floor", "fund", "house", "industrial", "language", "listing",
     "lok", "margin", "mauje", "nagar", "newspaper", "office", "parel", "park", "participant", "pat",
