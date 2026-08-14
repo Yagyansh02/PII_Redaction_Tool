@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Replace PII in Word documents with consistent synthetic values.">
+    <title>DOCX PII Redactor</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/app.js" defer></script>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <a class="brand" href="/" aria-label="DOCX PII Redactor home">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span>DOCX PII Redactor</span>
+        </a>
+        <span class="local-badge"><span aria-hidden="true"></span> No document storage</span>
+      </header>
+
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Privacy-preserving document processing</p>
+        <h1 id="page-title">Redact sensitive data.<br>Keep the document usable.</h1>
+        <p class="lede">
+          Upload a Word file to replace people, companies, contact details,
+          identifiers, addresses, and confidential images with safe alternatives.
+        </p>
+      </section>
+
+      <section class="workspace" aria-label="Redaction form">
+        <form id="redaction-form" novalidate>
+          <div id="drop-zone" class="drop-zone" role="button" tabindex="0" aria-controls="document">
+            <input id="document" name="document" type="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required>
+            <div class="file-icon" aria-hidden="true">W</div>
+            <div>
+              <strong id="file-title">Drop a DOCX here</strong>
+              <span id="file-detail">or click to choose a file · maximum 25 MB</span>
+            </div>
+            <button class="choose-button" type="button" tabindex="-1">Choose file</button>
+          </div>
+
+          <div class="options-grid">
+            <label>
+              <span>Company redaction</span>
+              <select id="company-scope" name="company_scope">
+                <option value="all">All detected companies</option>
+                <option value="parties">Document parties only</option>
+                <option value="none">Do not redact companies</option>
+              </select>
+            </label>
+            <label>
+              <span>Embedded images</span>
+              <select id="image-policy" name="image_policy">
+                <option value="all">Redact all images — safest</option>
+                <option value="sensitive">Inspect and redact sensitive images</option>
+                <option value="none">Keep all images</option>
+              </select>
+            </label>
+          </div>
+
+          <details class="advanced">
+            <summary>Advanced settings</summary>
+            <div class="advanced-content">
+              <label class="check-row">
+                <input id="use-ner" type="checkbox" checked>
+                <span>
+                  <strong>Supplement rules with local NER</strong>
+                  <small>Improves recall for names and suffixless brands.</small>
+                </span>
+              </label>
+              <label class="seed-field">
+                <span>Deterministic seed</span>
+                <input id="seed" name="seed" type="number" min="0" max="2147483647" value="42" inputmode="numeric">
+              </label>
+            </div>
+          </details>
+
+          <div class="action-row">
+            <p><strong>Private by design.</strong> The server deletes its temporary copy after the response completes.</p>
+            <button id="submit-button" class="submit-button" type="submit" disabled>
+              <span>Redact and download</span>
+              <span class="arrow" aria-hidden="true">→</span>
+            </button>
+          </div>
+        </form>
+
+        <div id="status-panel" class="status-panel" hidden aria-live="polite">
+          <div id="spinner" class="spinner" aria-hidden="true"></div>
+          <div>
+            <strong id="status-title">Processing document…</strong>
+            <p id="status-message">Checking text, tables, fields, and embedded media.</p>
+            <a id="download-link" class="download-link" href="#" hidden>Download again</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="flow" aria-label="How it works">
+        <article><span>01</span><h2>Detect</h2><p>Rules, document context, gazetteers, and optional local NER find sensitive spans.</p></article>
+        <article><span>02</span><h2>Replace</h2><p>Consistent synthetic values preserve useful formats and company suffixes.</p></article>
+        <article><span>03</span><h2>Download</h2><p>The original Word package is edited in place so styles and layout survive.</p></article>
+      </section>
+
+      <footer>
+        <p>Processing happens on this application server. Only upload documents to a deployment you trust.</p>
+      </footer>
+    </main>
+  </body>
+</html>

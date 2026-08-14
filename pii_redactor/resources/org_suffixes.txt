@@ -1,0 +1,33 @@
+# Corporate/personally-controlled party suffixes eligible for redaction
+Private Limited
+Public Limited
+Pvt. Ltd.
+Pvt Ltd
+Limited
+Ltd.
+LLP
+L.L.P.
+LLC
+Inc.
+Inc
+Incorporated
+Corporation
+Corp.
+Corp
+Company
+plc
+S.A.
+N.V.
+GmbH
+AG
+Partners
+Partnerships
+Bank
+Trust
+Bank N.A.
+Bank Limited
+Bank of India
+N.A.
+Associates
+& Co.
+and Co.

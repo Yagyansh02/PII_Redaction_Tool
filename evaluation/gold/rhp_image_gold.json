@@ -1,0 +1,42 @@
+[
+  {
+    "media_path": "word/media/image1.jpeg",
+    "category": "QR_CODE",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image1.png",
+    "category": "PARTY_LOGO",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image2.jpeg",
+    "category": "PARTY_LOGO",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image2.png",
+    "category": "PARTY_LOGO",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image3.jpeg",
+    "category": "PARTY_LOGO",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image3.png",
+    "category": "PARTY_LOGO",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image4.png",
+    "category": "IDENTITY_DOCUMENT_PAN",
+    "sensitive": true
+  },
+  {
+    "media_path": "word/media/image5.png",
+    "category": "IDENTITY_DOCUMENT_AADHAAR",
+    "sensitive": true
+  }
+]

@@ -1,0 +1,14 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.py[cod]
+.pytest_cache
+tests
+evaluation
+output
+*.docx
+*.pdf
+EVALUATION_REPORT.md
+PROJECT_WALKTHROUGH.md
+TECHNICAL_NOTES.md

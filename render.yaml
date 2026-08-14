@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: docx-pii-redactor
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: MAX_UPLOAD_BYTES
+        value: "26214400"
+      - key: MAX_UNCOMPRESSED_BYTES
+        value: "209715200"
+      - key: MAX_ZIP_MEMBERS
+        value: "10000"

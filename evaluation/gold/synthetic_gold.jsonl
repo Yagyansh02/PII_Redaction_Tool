@@ -1,0 +1,11 @@
+{"record_id": "word/document.xml:p000000", "part": "word/document.xml", "start": 10, "end": 22, "type": "PERSON", "text": "Priya Sharma", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000001", "part": "word/document.xml", "start": 10, "end": 40, "type": "COMPANY", "text": "Orchid Systems Private Limited", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000002", "part": "word/document.xml", "start": 8, "end": 39, "type": "EMAIL", "text": "priya.sharma@orchid.example.org", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000003", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91 98765 43210", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000004", "part": "word/document.xml", "start": 17, "end": 86, "type": "POSTAL_ADDRESS", "text": "Flat 8, Lotus Heights, Baner Road, Pune \u2013 411 045, Maharashtra, India", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000005", "part": "word/document.xml", "start": 15, "end": 25, "type": "DATE_OF_BIRTH", "text": "14/09/1987", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000006", "part": "word/document.xml", "start": 8, "end": 19, "type": "SSN", "text": "123-45-6789", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000007", "part": "word/document.xml", "start": 11, "end": 30, "type": "CREDIT_CARD", "text": "4111 1111 1111 1111", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000008", "part": "word/document.xml", "start": 13, "end": 26, "type": "IP_ADDRESS", "text": "192.168.10.24", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000009", "part": "word/document.xml", "start": 13, "end": 36, "type": "IP_ADDRESS", "text": "2001:db8::8a2e:370:7334", "stratum": "synthetic"}
+{"record_id": "word/document.xml:p000010", "part": "word/document.xml", "start": 5, "end": 15, "type": "PAN", "text": "ABCDE1234F", "stratum": "synthetic"}

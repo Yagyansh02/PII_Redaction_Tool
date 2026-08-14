@@ -1,0 +1,11 @@
+# Leaner deployment runtime: the web service uses spaCy's small English model
+# to fit on a 512 MB demo instance. The reference CLI/evaluation environment in
+# requirements.txt retains en_core_web_lg.
+lxml==5.4.0
+Faker==37.4.0
+Pillow==11.3.0
+spacy==3.8.7
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+fastapi==0.139.2
+uvicorn==0.51.0
+python-multipart==0.0.32

@@ -1,0 +1,13 @@
+{"record_id": "word/document.xml:p000000", "stratum": "synthetic", "text": "Employee: Priya Sharma"}
+{"record_id": "word/document.xml:p000001", "stratum": "synthetic", "text": "Employer: Orchid Systems Private Limited"}
+{"record_id": "word/document.xml:p000002", "stratum": "synthetic", "text": "E-mail: priya.sharma@orchid.example.org"}
+{"record_id": "word/document.xml:p000003", "stratum": "synthetic", "text": "Telephone: +91 98765 43210"}
+{"record_id": "word/document.xml:p000004", "stratum": "synthetic", "text": "Mailing address: Flat 8, Lotus Heights, Baner Road, Pune \u2013 411 045, Maharashtra, India"}
+{"record_id": "word/document.xml:p000005", "stratum": "synthetic", "text": "Date of birth: 14/09/1987"}
+{"record_id": "word/document.xml:p000006", "stratum": "synthetic", "text": "US SSN: 123-45-6789"}
+{"record_id": "word/document.xml:p000007", "stratum": "synthetic", "text": "Visa card: 4111 1111 1111 1111"}
+{"record_id": "word/document.xml:p000008", "stratum": "synthetic", "text": "Client IPv4: 192.168.10.24"}
+{"record_id": "word/document.xml:p000009", "stratum": "synthetic", "text": "Client IPv6: 2001:db8::8a2e:370:7334"}
+{"record_id": "word/document.xml:p000010", "stratum": "synthetic", "text": "PAN: ABCDE1234F"}
+{"record_id": "word/document.xml:p000011", "stratum": "synthetic", "text": "Order 6350960932; Ticket 1094535838831; board meeting 14/09/2024."}
+{"record_id": "word/document.xml:p000012", "stratum": "synthetic", "text": "Invalid SSN 000-12-1234; invalid IP 999.10.10.10; non-Luhn card 4111 1111 1111 1112."}

@@ -1,0 +1,481 @@
+{"record_id": "word/document.xml:p000005", "part": "word/document.xml", "start": 0, "end": 25, "type": "COMPANY", "text": "KSH INTERNATIONAL LIMITED", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000005", "part": "word/document.xml", "start": 53, "end": 74, "type": "CIN", "text": "U28129PN1979PLC141032", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000011", "part": "word/document.xml", "start": 0, "end": 73, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5 Village Birdewadi Chakan Taluka - Khed Pune – 410 501", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000012", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000013", "part": "word/document.xml", "start": 0, "end": 78, "type": "POSTAL_ADDRESS", "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner Pune – 411 045", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000014", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000015", "part": "word/document.xml", "start": 0, "end": 17, "type": "PERSON", "text": "Sarthak Malvadkar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000016", "part": "word/document.xml", "start": 26, "end": 57, "type": "EMAIL", "text": "cs.connect@kshinternational.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000016", "part": "word/document.xml", "start": 58, "end": 89, "type": "EMAIL", "text": "cs.connect@kshinternational.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000016", "part": "word/document.xml", "start": 101, "end": 117, "type": "PHONE", "text": "+ 91 20 45053237", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 15, "end": 36, "type": "PERSON", "text": "KUSHAL SUBBAYYA HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 38, "end": 57, "type": "PERSON", "text": "PUSHPA KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 59, "end": 78, "type": "PERSON", "text": "RAJESH KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 80, "end": 98, "type": "PERSON", "text": "ROHIT KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 100, "end": 119, "type": "PERSON", "text": "RAKHI GIRIJA SHETTY", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 121, "end": 144, "type": "COMPANY", "text": "DHAULAGIRI FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 146, "end": 166, "type": "COMPANY", "text": "EVEREST FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 168, "end": 187, "type": "COMPANY", "text": "MAKALU FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 189, "end": 207, "type": "COMPANY", "text": "BROAD FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 209, "end": 231, "type": "COMPANY", "text": "ANNAPURNA FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000018", "part": "word/document.xml", "start": 233, "end": 258, "type": "COMPANY", "text": "KANCHENJUNGA FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000019", "part": "word/document.xml", "start": 0, "end": 43, "type": "COMPANY", "text": "WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000043", "part": "word/document.xml", "start": 0, "end": 21, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000047", "part": "word/document.xml", "start": 0, "end": 19, "type": "PERSON", "text": "Pushpa Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000051", "part": "word/document.xml", "start": 0, "end": 19, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000055", "part": "word/document.xml", "start": 0, "end": 18, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000059", "part": "word/document.xml", "start": 17, "end": 37, "type": "COMPANY", "text": "Kirtane & Pandit LLP", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000076", "part": "word/document.xml", "start": 0, "end": 31, "type": "COMPANY", "text": "NuvamaWealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000077", "part": "word/document.xml", "start": 0, "end": 11, "type": "PERSON", "text": "Lokesh Shah", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000077", "part": "word/document.xml", "start": 13, "end": 27, "type": "PERSON", "text": "Soumavo Sarkar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000078", "part": "word/document.xml", "start": 26, "end": 44, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000078", "part": "word/document.xml", "start": 45, "end": 63, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000079", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 22 4009 4400", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000080", "part": "word/document.xml", "start": 0, "end": 23, "type": "COMPANY", "text": "ICICISecurities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000081", "part": "word/document.xml", "start": 0, "end": 14, "type": "PERSON", "text": "Kishan Rastogi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000081", "part": "word/document.xml", "start": 16, "end": 29, "type": "PERSON", "text": "Abhijit Diwan", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000082", "part": "word/document.xml", "start": 26, "end": 49, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000082", "part": "word/document.xml", "start": 50, "end": 73, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000083", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 22 6807 7100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000088", "part": "word/document.xml", "start": 0, "end": 33, "type": "COMPANY", "text": "MUFG Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000089", "part": "word/document.xml", "start": 10, "end": 43, "type": "COMPANY", "text": "Link Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000090", "part": "word/document.xml", "start": 0, "end": 20, "type": "PERSON", "text": "Shanti Gopalkrishnan", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000091", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91 81081 14949", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000092", "part": "word/document.xml", "start": 27, "end": 47, "type": "EMAIL", "text": "ksh@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000092", "part": "word/document.xml", "start": 48, "end": 85, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000108", "part": "word/document.xml", "start": 0, "end": 25, "type": "COMPANY", "text": "KSH INTERNATIONAL LIMITED", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000109", "part": "word/document.xml", "start": 44, "end": 84, "type": "COMPANY", "text": "Bhandary Metal Extrusion Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000109", "part": "word/document.xml", "start": 316, "end": 356, "type": "COMPANY", "text": "Bhandary Metal Extrusion Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000109", "part": "word/document.xml", "start": 362, "end": 395, "type": "COMPANY", "text": "KSH International Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000109", "part": "word/document.xml", "start": 1529, "end": 1554, "type": "COMPANY", "text": "KSH International Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000110", "part": "word/document.xml", "start": 27, "end": 48, "type": "CIN", "text": "U28129PN1979PLC141032", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000111", "part": "word/document.xml", "start": 19, "end": 115, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000112", "part": "word/document.xml", "start": 18, "end": 117, "type": "POSTAL_ADDRESS", "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000113", "part": "word/document.xml", "start": 16, "end": 33, "type": "PERSON", "text": "Sarthak Malvadkar", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000113", "part": "word/document.xml", "start": 88, "end": 105, "type": "PHONE", "text": "+ 91 20 4505 3237", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000114", "part": "word/document.xml", "start": 27, "end": 58, "type": "EMAIL", "text": "cs.connect@kshinternational.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000114", "part": "word/document.xml", "start": 59, "end": 90, "type": "EMAIL", "text": "cs.connect@kshinternational.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000115", "part": "word/document.xml", "start": 15, "end": 36, "type": "PERSON", "text": "KUSHAL SUBBAYYA HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000115", "part": "word/document.xml", "start": 38, "end": 57, "type": "PERSON", "text": "PUSHPA KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000115", "part": "word/document.xml", "start": 59, "end": 78, "type": "PERSON", "text": "RAJESH KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000115", "part": "word/document.xml", "start": 80, "end": 98, "type": "PERSON", "text": "ROHIT KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000115", "part": "word/document.xml", "start": 100, "end": 119, "type": "PERSON", "text": "RAKHI GIRIJA SHETTY", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000115", "part": "word/document.xml", "start": 121, "end": 144, "type": "COMPANY", "text": "DHAULAGIRI FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000116", "part": "word/document.xml", "start": 14, "end": 33, "type": "COMPANY", "text": "MAKALU FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000116", "part": "word/document.xml", "start": 35, "end": 53, "type": "COMPANY", "text": "BROAD FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000116", "part": "word/document.xml", "start": 55, "end": 77, "type": "COMPANY", "text": "ANNAPURNA FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000116", "part": "word/document.xml", "start": 79, "end": 104, "type": "COMPANY", "text": "KANCHENJUNGA FAMILY TRUST", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000116", "part": "word/document.xml", "start": 109, "end": 152, "type": "COMPANY", "text": "WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000117", "part": "word/document.xml", "start": 97, "end": 122, "type": "COMPANY", "text": "KSH INTERNATIONAL LIMITED", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000117", "part": "word/document.xml", "start": 635, "end": 656, "type": "PERSON", "text": "KUSHAL SUBBAYYA HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000117", "part": "word/document.xml", "start": 746, "end": 765, "type": "PERSON", "text": "PUSHPA KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000117", "part": "word/document.xml", "start": 853, "end": 872, "type": "PERSON", "text": "RAJESH KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000117", "part": "word/document.xml", "start": 963, "end": 981, "type": "PERSON", "text": "ROHIT KUSHAL HEGDE", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000137", "part": "word/document.xml", "start": 0, "end": 32, "type": "COMPANY", "text": "Nuvama Wealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000138", "part": "word/document.xml", "start": 0, "end": 124, "type": "POSTAL_ADDRESS", "text": "801 - 804, Wing A, Building No 3, Inspire BKC, G Block, Bandra Kurla Complex, Bandra East, Mumbai 400051, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000139", "part": "word/document.xml", "start": 5, "end": 20, "type": "PHONE", "text": "+91 22 40094400", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000140", "part": "word/document.xml", "start": 27, "end": 45, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000140", "part": "word/document.xml", "start": 46, "end": 64, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000142", "part": "word/document.xml", "start": 45, "end": 74, "type": "EMAIL", "text": "customerservice.mb@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000142", "part": "word/document.xml", "start": 75, "end": 104, "type": "EMAIL", "text": "customerservice.mb@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000143", "part": "word/document.xml", "start": 16, "end": 27, "type": "PERSON", "text": "Lokesh Shah", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000143", "part": "word/document.xml", "start": 29, "end": 43, "type": "PERSON", "text": "Soumavo Sarkar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000144", "part": "word/document.xml", "start": 26, "end": 38, "type": "SEBI_REG_NO", "text": "INM000013004", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000145", "part": "word/document.xml", "start": 0, "end": 24, "type": "COMPANY", "text": "ICICI Securities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000146", "part": "word/document.xml", "start": 0, "end": 90, "type": "POSTAL_ADDRESS", "text": "ICICI Venture House, Appasaheb Marathe Marg, Prabhadevi, Mumbai 400025, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000147", "part": "word/document.xml", "start": 5, "end": 21, "type": "PHONE", "text": "+91 22 6807 7100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000148", "part": "word/document.xml", "start": 27, "end": 50, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000148", "part": "word/document.xml", "start": 51, "end": 74, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000150", "part": "word/document.xml", "start": 45, "end": 77, "type": "EMAIL", "text": "customercare@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000150", "part": "word/document.xml", "start": 78, "end": 110, "type": "EMAIL", "text": "customercare@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000151", "part": "word/document.xml", "start": 16, "end": 30, "type": "PERSON", "text": "Kishan Rastogi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000151", "part": "word/document.xml", "start": 31, "end": 44, "type": "PERSON", "text": "Abhijit Diwan", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000152", "part": "word/document.xml", "start": 26, "end": 38, "type": "SEBI_REG_NO", "text": "INM000011179", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000153", "part": "word/document.xml", "start": 0, "end": 33, "type": "COMPANY", "text": "MUFG Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000154", "part": "word/document.xml", "start": 10, "end": 43, "type": "COMPANY", "text": "Link Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000155", "part": "word/document.xml", "start": 0, "end": 95, "type": "POSTAL_ADDRESS", "text": "C-101, Embassy 247, 1st Floor, L B S Marg, Vikhroli (West), Mumbai 400083, (Maharashtra), India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000156", "part": "word/document.xml", "start": 5, "end": 20, "type": "PHONE", "text": "+91 81081 14949", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000157", "part": "word/document.xml", "start": 27, "end": 64, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000157", "part": "word/document.xml", "start": 65, "end": 102, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000159", "part": "word/document.xml", "start": 46, "end": 83, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000159", "part": "word/document.xml", "start": 84, "end": 121, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p000160", "part": "word/document.xml", "start": 16, "end": 36, "type": "PERSON", "text": "Shanti Gopalkrishnan", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000161", "part": "word/document.xml", "start": 26, "end": 38, "type": "SEBI_REG_NO", "text": "INR000004058", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000186", "part": "word/document.xml", "start": 129, "end": 154, "type": "COMPANY", "text": "KSH International Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000186", "part": "word/document.xml", "start": 262, "end": 358, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000186", "part": "word/document.xml", "start": 387, "end": 486, "type": "POSTAL_ADDRESS", "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000193", "part": "word/document.xml", "start": 0, "end": 25, "type": "COMPANY", "text": "KSH International Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000193", "part": "word/document.xml", "start": 128, "end": 224, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000204", "part": "word/document.xml", "start": 53, "end": 73, "type": "COMPANY", "text": "Kirtane & Pandit LLP", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000211", "part": "word/document.xml", "start": 129, "end": 172, "type": "COMPANY", "text": "CARE Analytics and Advisory Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000211", "part": "word/document.xml", "start": 306, "end": 349, "type": "COMPANY", "text": "CARE Analytics and Advisory Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000214", "part": "word/document.xml", "start": 58, "end": 79, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000216", "part": "word/document.xml", "start": 50, "end": 65, "type": "PERSON", "text": "Sandesh Bhagwat", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000218", "part": "word/document.xml", "start": 50, "end": 60, "type": "PERSON", "text": "Amod Joshi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000220", "part": "word/document.xml", "start": 67, "end": 84, "type": "PERSON", "text": "Sarthak Malvadkar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000224", "part": "word/document.xml", "start": 47, "end": 146, "type": "POSTAL_ADDRESS", "text": "201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune – 411 045, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000226", "part": "word/document.xml", "start": 0, "end": 43, "type": "COMPANY", "text": "Waterloo Industrial Park VI Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 18, "end": 49, "type": "COMPANY", "text": "Waterloo Motors Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 51, "end": 98, "type": "COMPANY", "text": "KSH Project Management Services Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 134, "end": 167, "type": "COMPANY", "text": "KSH Infra Park VI Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 169, "end": 200, "type": "COMPANY", "text": "KSH Distriparks Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 202, "end": 242, "type": "COMPANY", "text": "KSH Integrated Logistics Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 244, "end": 289, "type": "COMPANY", "text": "Kushal Motors and Electricals Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 291, "end": 333, "type": "COMPANY", "text": "Waterloo Industrial Park I Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 335, "end": 378, "type": "COMPANY", "text": "Waterloo Industrial Park II Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 380, "end": 424, "type": "COMPANY", "text": "Waterloo Industrial Park III Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 426, "end": 469, "type": "COMPANY", "text": "Waterloo Industrial Park IV Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 471, "end": 513, "type": "COMPANY", "text": "Waterloo Industrial Park V Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 515, "end": 558, "type": "COMPANY", "text": "Waterloo Industrial Park VI Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 560, "end": 605, "type": "COMPANY", "text": "Waterloo Industrial Park VIII Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 607, "end": 650, "type": "COMPANY", "text": "Waterloo Industrial Park IX Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 652, "end": 697, "type": "COMPANY", "text": "Waterloo Industrial Park IX B Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000242", "part": "word/document.xml", "start": 699, "end": 726, "type": "COMPANY", "text": "Waterloo Industrial Park IX", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000243", "part": "word/document.xml", "start": 13, "end": 46, "type": "COMPANY", "text": "KSH Infra Park IV Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000247", "part": "word/document.xml", "start": 69, "end": 93, "type": "PERSON", "text": "Lalit Muljibhai Sarvaiya", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000249", "part": "word/document.xml", "start": 34, "end": 77, "type": "COMPANY", "text": "CARE Analytics and Advisory Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000253", "part": "word/document.xml", "start": 50, "end": 68, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000257", "part": "word/document.xml", "start": 45, "end": 64, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000270", "part": "word/document.xml", "start": 0, "end": 21, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000270", "part": "word/document.xml", "start": 23, "end": 42, "type": "PERSON", "text": "Pushpa Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000270", "part": "word/document.xml", "start": 44, "end": 62, "type": "COMPANY", "text": "Broad Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000270", "part": "word/document.xml", "start": 67, "end": 90, "type": "COMPANY", "text": "Dhaulagiri Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 0, "end": 21, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 23, "end": 42, "type": "PERSON", "text": "Pushpa Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 44, "end": 63, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 65, "end": 83, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 88, "end": 107, "type": "PERSON", "text": "Rakhi Girija Shetty", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 109, "end": 132, "type": "COMPANY", "text": "Dhaulagiri Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 134, "end": 154, "type": "COMPANY", "text": "Everest Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000274", "part": "word/document.xml", "start": 156, "end": 175, "type": "COMPANY", "text": "Makalu Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000275", "part": "word/document.xml", "start": 14, "end": 36, "type": "COMPANY", "text": "Annapurna Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000275", "part": "word/document.xml", "start": 38, "end": 63, "type": "COMPANY", "text": "Kanchenjunga Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000275", "part": "word/document.xml", "start": 68, "end": 111, "type": "COMPANY", "text": "Waterloo Industrial Park VI Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000277", "part": "word/document.xml", "start": 0, "end": 21, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000277", "part": "word/document.xml", "start": 23, "end": 42, "type": "PERSON", "text": "Pushpa Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000277", "part": "word/document.xml", "start": 44, "end": 63, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000277", "part": "word/document.xml", "start": 68, "end": 86, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000279", "part": "word/document.xml", "start": 0, "end": 23, "type": "COMPANY", "text": "Dhaulagiri Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000279", "part": "word/document.xml", "start": 25, "end": 45, "type": "COMPANY", "text": "Everest Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000279", "part": "word/document.xml", "start": 47, "end": 66, "type": "COMPANY", "text": "Makalu Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000279", "part": "word/document.xml", "start": 68, "end": 86, "type": "COMPANY", "text": "Broad Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000279", "part": "word/document.xml", "start": 88, "end": 110, "type": "COMPANY", "text": "Annapurna Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000279", "part": "word/document.xml", "start": 116, "end": 141, "type": "COMPANY", "text": "Kanchenjunga Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000281", "part": "word/document.xml", "start": 0, "end": 19, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000281", "part": "word/document.xml", "start": 70, "end": 90, "type": "COMPANY", "text": "Everest Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000283", "part": "word/document.xml", "start": 0, "end": 19, "type": "PERSON", "text": "Rakhi Girija Shetty", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000283", "part": "word/document.xml", "start": 79, "end": 101, "type": "COMPANY", "text": "Annapurna Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000285", "part": "word/document.xml", "start": 48, "end": 142, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka-Khed, Pune – 410 501, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000296", "part": "word/document.xml", "start": 0, "end": 18, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000296", "part": "word/document.xml", "start": 69, "end": 88, "type": "COMPANY", "text": "Makalu Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000298", "part": "word/document.xml", "start": 0, "end": 22, "type": "PERSON", "text": "Sangeeta Ramprasad Rai", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000298", "part": "word/document.xml", "start": 73, "end": 98, "type": "COMPANY", "text": "Kanchenjunga Family Trust", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000311", "part": "word/document.xml", "start": 38, "end": 144, "type": "POSTAL_ADDRESS", "text": "Plot No. J-25, Taloja Industrial Area, Village Padghe, Taluka Panvel, Raigad – 410 208, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000313", "part": "word/document.xml", "start": 38, "end": 134, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune – 410 501, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000315", "part": "word/document.xml", "start": 38, "end": 150, "type": "POSTAL_ADDRESS", "text": "Plot No. 5, Chakan Industrial Area, Phase II, Village Khalumbre, Taluka Khed, Pune – 410 501, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000317", "part": "word/document.xml", "start": 46, "end": 65, "type": "PERSON", "text": "Rakhi Girija Shetty", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000400", "part": "word/document.xml", "start": 52, "end": 84, "type": "COMPANY", "text": "Nuvama Wealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000400", "part": "word/document.xml", "start": 89, "end": 113, "type": "COMPANY", "text": "ICICI Securities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000453", "part": "word/document.xml", "start": 182, "end": 199, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000472", "part": "word/document.xml", "start": 0, "end": 16, "type": "COMPANY", "text": "ICICI Securities", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000473", "part": "word/document.xml", "start": 0, "end": 24, "type": "COMPANY", "text": "ICICI Securities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000477", "part": "word/document.xml", "start": 84, "end": 104, "type": "COMPANY", "text": "CARE Ratings Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000500", "part": "word/document.xml", "start": 0, "end": 32, "type": "COMPANY", "text": "Nuvama Wealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000507", "part": "word/document.xml", "start": 218, "end": 239, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000507", "part": "word/document.xml", "start": 329, "end": 348, "type": "PERSON", "text": "Pushpa Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000507", "part": "word/document.xml", "start": 436, "end": 455, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000507", "part": "word/document.xml", "start": 546, "end": 564, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000530", "part": "word/document.xml", "start": 173, "end": 191, "type": "COMPANY", "text": "ICICI Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000547", "part": "word/document.xml", "start": 153, "end": 170, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000556", "part": "word/document.xml", "start": 0, "end": 33, "type": "COMPANY", "text": "MUFG Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000556", "part": "word/document.xml", "start": 44, "end": 77, "type": "COMPANY", "text": "Link Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000572", "part": "word/document.xml", "start": 81, "end": 114, "type": "COMPANY", "text": "MUFG Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000572", "part": "word/document.xml", "start": 125, "end": 158, "type": "COMPANY", "text": "Link Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000580", "part": "word/document.xml", "start": 149, "end": 166, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000580", "part": "word/document.xml", "start": 171, "end": 189, "type": "COMPANY", "text": "ICICI Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000590", "part": "word/document.xml", "start": 8, "end": 40, "type": "COMPANY", "text": "Nuvama Wealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p000590", "part": "word/document.xml", "start": 45, "end": 69, "type": "COMPANY", "text": "ICICI Securities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p001060", "part": "word/document.xml", "start": 258, "end": 301, "type": "COMPANY", "text": "CARE Analytics and Advisory Private Limited", "stratum": "C_structured"}
+{"record_id": "word/document.xml:p001220", "part": "word/document.xml", "start": 0, "end": 18, "type": "COMPANY", "text": "Broad Family Trust", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p001365", "part": "word/document.xml", "start": 0, "end": 22, "type": "COMPANY", "text": "Annapurna Family Trust", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p001901", "part": "word/document.xml", "start": 0, "end": 23, "type": "COMPANY", "text": "Dhaulagiri Family Trust", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p001907", "part": "word/document.xml", "start": 0, "end": 19, "type": "COMPANY", "text": "Makalu Family Trust", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p001913", "part": "word/document.xml", "start": 0, "end": 22, "type": "COMPANY", "text": "Annapurna Family Trust", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p001945", "part": "word/document.xml", "start": 0, "end": 18, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p001996", "part": "word/document.xml", "start": 0, "end": 21, "type": "PERSON", "text": "Maithili Rajesh Hegde", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p002840", "part": "word/document.xml", "start": 154, "end": 197, "type": "COMPANY", "text": "Care Analytics and Advisory Private Limited", "stratum": "C_structured"}
+{"record_id": "word/document.xml:p003614", "part": "word/document.xml", "start": 0, "end": 18, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "B_prose"}
+{"record_id": "word/document.xml:p003627", "part": "word/document.xml", "start": 33, "end": 58, "type": "COMPANY", "text": "KSH International Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003628", "part": "word/document.xml", "start": 0, "end": 58, "type": "POSTAL_ADDRESS", "text": "11/3, 11/4 and 11/5, Village Birdewadi Chakan, Taluka-Khed", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003629", "part": "word/document.xml", "start": 0, "end": 14, "type": "POSTAL_ADDRESS", "text": "Pune – 410 501", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003630", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003632", "part": "word/document.xml", "start": 32, "end": 57, "type": "COMPANY", "text": "KSH International Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003633", "part": "word/document.xml", "start": 0, "end": 62, "type": "POSTAL_ADDRESS", "text": "201, Tower-2, Montreal Business Centre Off Pallod Farms, Baner", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003634", "part": "word/document.xml", "start": 0, "end": 31, "type": "POSTAL_ADDRESS", "text": "Pune 411 045 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003637", "part": "word/document.xml", "start": 27, "end": 48, "type": "CIN", "text": "U28129PN1979PLC141032", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003648", "part": "word/document.xml", "start": 0, "end": 21, "type": "PERSON", "text": "Kushal Subbayya Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003650", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "00135070", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003651", "part": "word/document.xml", "start": 0, "end": 161, "type": "POSTAL_ADDRESS", "text": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no. 3 Prabhat Road, opposite PYC basketball court, Deccan Gymkhana, Pune – 411 004 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003652", "part": "word/document.xml", "start": 0, "end": 19, "type": "PERSON", "text": "Rajesh Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003654", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "00114193", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003655", "part": "word/document.xml", "start": 0, "end": 103, "type": "POSTAL_ADDRESS", "text": "12 Buena Monte, NCL co-operative housing society, Panchvati, Pashan, Pune – 411 008, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003656", "part": "word/document.xml", "start": 0, "end": 18, "type": "PERSON", "text": "Rohit Kushal Hegde", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003658", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "00134926", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003659", "part": "word/document.xml", "start": 0, "end": 141, "type": "POSTAL_ADDRESS", "text": "Pushpakamal Apartment, Flat – 1, S. no. 245/ 104, Prabhat Road Lane no. 3, Shivaji Nagar, Deccan Gymkhana, Pune – 411 004, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003660", "part": "word/document.xml", "start": 0, "end": 19, "type": "PERSON", "text": "Rakhi Girija Shetty", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003662", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "03124510", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003663", "part": "word/document.xml", "start": 0, "end": 62, "type": "POSTAL_ADDRESS", "text": "S. no. 245/ 104, Pushpakamal, Deccan Gymkhana Society, lane no", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003664", "part": "word/document.xml", "start": 0, "end": 109, "type": "POSTAL_ADDRESS", "text": "3 Prabhat Road, opposite PYC basketball court, Erandawane, Deccan Gymkhana, Pune – 411 004 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003665", "part": "word/document.xml", "start": 0, "end": 22, "type": "PERSON", "text": "Dinesh Hirachand Munot", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003667", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "00049801", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003668", "part": "word/document.xml", "start": 0, "end": 120, "type": "POSTAL_ADDRESS", "text": "Pratik Bunglow, Senapati Bapat Road, behind Sahara Hotel, Shivajinagar, Model Colony, Pune – 411 016, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003669", "part": "word/document.xml", "start": 0, "end": 18, "type": "PERSON", "text": "Ajay Shriram Patil", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003671", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "01217000", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003672", "part": "word/document.xml", "start": 0, "end": 102, "type": "POSTAL_ADDRESS", "text": "602, Gopalkrupa Apartment, Bhonde colony, Prabhat Road, Erandawane, Pune – 411 004, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003673", "part": "word/document.xml", "start": 0, "end": 16, "type": "PERSON", "text": "Ram Kumar Tiwari", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003675", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "10938958", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003676", "part": "word/document.xml", "start": 0, "end": 91, "type": "POSTAL_ADDRESS", "text": "A-259, JK Road, Minal Residency, Huzur, Govindpura, Bhopal – 462 023, Madhya Pradesh, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003677", "part": "word/document.xml", "start": 0, "end": 10, "type": "PERSON", "text": "Indu Jacob", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003679", "part": "word/document.xml", "start": 0, "end": 8, "type": "DIN", "text": "05293084", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003680", "part": "word/document.xml", "start": 0, "end": 74, "type": "POSTAL_ADDRESS", "text": "A29, Abhimanshree Society, Pashan Road, Pune – 411 008, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003683", "part": "word/document.xml", "start": 0, "end": 17, "type": "PERSON", "text": "Sarthak Malvadkar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003683", "part": "word/document.xml", "start": 111, "end": 154, "type": "POSTAL_ADDRESS", "text": "Gat No. 11/3, 11/4, 11/5, Village Birdewadi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003684", "part": "word/document.xml", "start": 0, "end": 36, "type": "POSTAL_ADDRESS", "text": "Taluka Khed, District Pune – 410 501", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003685", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003686", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+ 91 20 45053237", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003687", "part": "word/document.xml", "start": 27, "end": 65, "type": "EMAIL", "text": "Sarthak.malvadkar@kshinterantional.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003687", "part": "word/document.xml", "start": 66, "end": 104, "type": "EMAIL", "text": "Sarthak.malvadkar@kshinterantional.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003693", "part": "word/document.xml", "start": 0, "end": 32, "type": "COMPANY", "text": "Nuvama Wealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003694", "part": "word/document.xml", "start": 0, "end": 73, "type": "POSTAL_ADDRESS", "text": "801-804, Wing A, Building No. 3 Inspire BKC G Block, Bandra Kurla Complex", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003695", "part": "word/document.xml", "start": 0, "end": 48, "type": "POSTAL_ADDRESS", "text": "Bandra East, Mumbai – 400 051 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003696", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91 22 40094400", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003696", "part": "word/document.xml", "start": 53, "end": 71, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003696", "part": "word/document.xml", "start": 72, "end": 90, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003697", "part": "word/document.xml", "start": 46, "end": 75, "type": "EMAIL", "text": "customerservice.mb@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003697", "part": "word/document.xml", "start": 76, "end": 105, "type": "EMAIL", "text": "customerservice.mb@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003698", "part": "word/document.xml", "start": 16, "end": 27, "type": "PERSON", "text": "Lokesh Shah", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003698", "part": "word/document.xml", "start": 29, "end": 43, "type": "PERSON", "text": "Soumavo Sarkar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003699", "part": "word/document.xml", "start": 23, "end": 35, "type": "SEBI_REG_NO", "text": "INM000013004", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003700", "part": "word/document.xml", "start": 0, "end": 24, "type": "COMPANY", "text": "ICICI Securities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003700", "part": "word/document.xml", "start": 25, "end": 115, "type": "POSTAL_ADDRESS", "text": "ICICI Venture House Appasaheb Marathe Marg Prabhadevi, Mumbai – 400 025 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003701", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 22 6807 7100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003701", "part": "word/document.xml", "start": 54, "end": 77, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003701", "part": "word/document.xml", "start": 78, "end": 101, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003701", "part": "word/document.xml", "start": 225, "end": 257, "type": "EMAIL", "text": "customercare@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003701", "part": "word/document.xml", "start": 258, "end": 290, "type": "EMAIL", "text": "customercare@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003702", "part": "word/document.xml", "start": 16, "end": 30, "type": "PERSON", "text": "Kishan Rastogi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003702", "part": "word/document.xml", "start": 31, "end": 44, "type": "PERSON", "text": "Abhijit Diwan", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003703", "part": "word/document.xml", "start": 23, "end": 35, "type": "SEBI_REG_NO", "text": "INM000011179", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003779", "part": "word/document.xml", "start": 0, "end": 32, "type": "COMPANY", "text": "Nuvama Wealth Management Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003780", "part": "word/document.xml", "start": 0, "end": 51, "type": "POSTAL_ADDRESS", "text": "801-804, Wing A, Building No 3 Inspire BKC, G Block", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003781", "part": "word/document.xml", "start": 0, "end": 48, "type": "POSTAL_ADDRESS", "text": "Bandra Kurla Complex, Bandra East Mumbai 400 051", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003782", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003783", "part": "word/document.xml", "start": 11, "end": 28, "type": "PHONE", "text": "+ 91 22 4009 4400", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003784", "part": "word/document.xml", "start": 26, "end": 44, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003784", "part": "word/document.xml", "start": 45, "end": 63, "type": "EMAIL", "text": "ksh.ipo@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003784", "part": "word/document.xml", "start": 84, "end": 110, "type": "EMAIL", "text": "prakash.boricha@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003784", "part": "word/document.xml", "start": 111, "end": 137, "type": "EMAIL", "text": "prakash.boricha@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003784", "part": "word/document.xml", "start": 162, "end": 186, "type": "EMAIL", "text": "sheetal.parab@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003784", "part": "word/document.xml", "start": 187, "end": 211, "type": "EMAIL", "text": "sheetal.parab@nuvama.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003786", "part": "word/document.xml", "start": 16, "end": 31, "type": "PERSON", "text": "Prakash Boricha", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003787", "part": "word/document.xml", "start": 26, "end": 38, "type": "SEBI_REG_NO", "text": "INZ000166136", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003788", "part": "word/document.xml", "start": 0, "end": 24, "type": "COMPANY", "text": "ICICI Securities Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003788", "part": "word/document.xml", "start": 25, "end": 115, "type": "POSTAL_ADDRESS", "text": "ICICI Venture House Appasaheb Marathe Marg Prabhadevi, Mumbai – 400 025 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003789", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 22 6807 7100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003789", "part": "word/document.xml", "start": 54, "end": 77, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003789", "part": "word/document.xml", "start": 78, "end": 101, "type": "EMAIL", "text": "ksh@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003790", "part": "word/document.xml", "start": 46, "end": 78, "type": "EMAIL", "text": "customercare@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003790", "part": "word/document.xml", "start": 79, "end": 111, "type": "EMAIL", "text": "customercare@icicisecurities.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003791", "part": "word/document.xml", "start": 16, "end": 30, "type": "PERSON", "text": "Kishan Rastogi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003791", "part": "word/document.xml", "start": 31, "end": 44, "type": "PERSON", "text": "Abhijit Diwan", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003792", "part": "word/document.xml", "start": 23, "end": 35, "type": "SEBI_REG_NO", "text": "INM000011179", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003793", "part": "word/document.xml", "start": 46, "end": 54, "type": "COMPANY", "text": "Trilegal", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003794", "part": "word/document.xml", "start": 0, "end": 16, "type": "POSTAL_ADDRESS", "text": "One World Centre", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003795", "part": "word/document.xml", "start": 0, "end": 25, "type": "POSTAL_ADDRESS", "text": "10th Floor, Tower 2A & 2B", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003796", "part": "word/document.xml", "start": 0, "end": 56, "type": "POSTAL_ADDRESS", "text": "Senapati Bapat Marg, Lower Parel (West) Mumbai – 400 013", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003797", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003798", "part": "word/document.xml", "start": 26, "end": 42, "type": "EMAIL", "text": "ipo@trilegal.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003798", "part": "word/document.xml", "start": 43, "end": 59, "type": "EMAIL", "text": "ipo@trilegal.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003799", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 22 4079 1000", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003801", "part": "word/document.xml", "start": 0, "end": 33, "type": "COMPANY", "text": "MUFG Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003801", "part": "word/document.xml", "start": 44, "end": 77, "type": "COMPANY", "text": "Link Intime India Private Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003801", "part": "word/document.xml", "start": 79, "end": 97, "type": "POSTAL_ADDRESS", "text": "C-101, Embassy 247", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003802", "part": "word/document.xml", "start": 0, "end": 74, "type": "POSTAL_ADDRESS", "text": "1st Floor, L B S Marg, Vikhroli (West) Mumbai 400083, (Maharashtra), India", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003802", "part": "word/document.xml", "start": 86, "end": 101, "type": "PHONE", "text": "+91 81081 14949", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003803", "part": "word/document.xml", "start": 27, "end": 47, "type": "EMAIL", "text": "ksh@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003803", "part": "word/document.xml", "start": 48, "end": 85, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003804", "part": "word/document.xml", "start": 46, "end": 83, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003804", "part": "word/document.xml", "start": 84, "end": 121, "type": "EMAIL", "text": "kshinternational.ipo@in.mpms.mufg.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003805", "part": "word/document.xml", "start": 87, "end": 107, "type": "PERSON", "text": "Shanti Gopalkrishnan", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003805", "part": "word/document.xml", "start": 131, "end": 143, "type": "SEBI_REG_NO", "text": "INR000004058", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003807", "part": "word/document.xml", "start": 5, "end": 26, "type": "CIN", "text": "U67190MH1999PTC118368", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003808", "part": "word/document.xml", "start": 44, "end": 61, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003809", "part": "word/document.xml", "start": 0, "end": 17, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003809", "part": "word/document.xml", "start": 19, "end": 78, "type": "POSTAL_ADDRESS", "text": "FIG-OPS Department – Lodha I Think Techno Campus, O-3 Level", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003810", "part": "word/document.xml", "start": 0, "end": 89, "type": "POSTAL_ADDRESS", "text": "Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003811", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91 22 30752929", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003811", "part": "word/document.xml", "start": 28, "end": 43, "type": "PHONE", "text": "+91 22 30752928", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003811", "part": "word/document.xml", "start": 48, "end": 63, "type": "PHONE", "text": "+91 22 30752914", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 26, "end": 55, "type": "EMAIL", "text": "siddharth.jadhav@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 56, "end": 85, "type": "EMAIL", "text": "siddharth.jadhav@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 106, "end": 132, "type": "EMAIL", "text": "sachin.gawade@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 133, "end": 159, "type": "EMAIL", "text": "sachin.gawade@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 179, "end": 202, "type": "EMAIL", "text": "eric.bacha@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 203, "end": 226, "type": "EMAIL", "text": "eric.bacha@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 247, "end": 275, "type": "EMAIL", "text": "tushar.gavankar@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 276, "end": 304, "type": "EMAIL", "text": "tushar.gavankar@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 329, "end": 354, "type": "EMAIL", "text": "pravin.teli2@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003812", "part": "word/document.xml", "start": 355, "end": 380, "type": "EMAIL", "text": "pravin.teli2@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003813", "part": "word/document.xml", "start": 16, "end": 26, "type": "PERSON", "text": "Eric Bacha", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003813", "part": "word/document.xml", "start": 28, "end": 41, "type": "PERSON", "text": "Sachin Gawade", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003813", "part": "word/document.xml", "start": 43, "end": 54, "type": "PERSON", "text": "Pravin Teli", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003813", "part": "word/document.xml", "start": 56, "end": 72, "type": "PERSON", "text": "Siddharth Jadhav", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003813", "part": "word/document.xml", "start": 74, "end": 89, "type": "PERSON", "text": "Tushar Gavankar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003814", "part": "word/document.xml", "start": 22, "end": 34, "type": "SEBI_REG_NO", "text": "INBI00000063", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003815", "part": "word/document.xml", "start": 5, "end": 26, "type": "CIN", "text": "L65920MH1994PLC080618", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003817", "part": "word/document.xml", "start": 0, "end": 18, "type": "COMPANY", "text": "ICICI Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003819", "part": "word/document.xml", "start": 0, "end": 79, "type": "POSTAL_ADDRESS", "text": "163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003819", "part": "word/document.xml", "start": 91, "end": 103, "type": "PHONE", "text": "022-68052182", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003819", "part": "word/document.xml", "start": 130, "end": 150, "type": "EMAIL", "text": "Ipocmg@icicibank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003819", "part": "word/document.xml", "start": 151, "end": 171, "type": "EMAIL", "text": "Ipocmg@icicibank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003819", "part": "word/document.xml", "start": 253, "end": 264, "type": "PERSON", "text": "Varun Badai", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003820", "part": "word/document.xml", "start": 22, "end": 34, "type": "SEBI_REG_NO", "text": "INBI00000004", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003821", "part": "word/document.xml", "start": 5, "end": 26, "type": "CIN", "text": "L65190GJ1994PLC021012", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003822", "part": "word/document.xml", "start": 0, "end": 17, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003823", "part": "word/document.xml", "start": 0, "end": 17, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003823", "part": "word/document.xml", "start": 19, "end": 78, "type": "POSTAL_ADDRESS", "text": "FIG-OPS Department – Lodha I Think Techno Campus, O-3 Level", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003824", "part": "word/document.xml", "start": 0, "end": 89, "type": "POSTAL_ADDRESS", "text": "Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003825", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91 22 30752929", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003825", "part": "word/document.xml", "start": 28, "end": 43, "type": "PHONE", "text": "+91 22 30752928", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003825", "part": "word/document.xml", "start": 48, "end": 63, "type": "PHONE", "text": "+91 22 30752914", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 26, "end": 55, "type": "EMAIL", "text": "siddharth.jadhav@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 56, "end": 85, "type": "EMAIL", "text": "siddharth.jadhav@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 106, "end": 132, "type": "EMAIL", "text": "sachin.gawade@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 133, "end": 159, "type": "EMAIL", "text": "sachin.gawade@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 179, "end": 202, "type": "EMAIL", "text": "eric.bacha@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 203, "end": 226, "type": "EMAIL", "text": "eric.bacha@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 247, "end": 275, "type": "EMAIL", "text": "tushar.gavankar@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 276, "end": 304, "type": "EMAIL", "text": "tushar.gavankar@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 329, "end": 354, "type": "EMAIL", "text": "pravin.teli2@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003826", "part": "word/document.xml", "start": 355, "end": 380, "type": "EMAIL", "text": "pravin.teli2@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003827", "part": "word/document.xml", "start": 16, "end": 26, "type": "PERSON", "text": "Eric Bacha", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003827", "part": "word/document.xml", "start": 28, "end": 41, "type": "PERSON", "text": "Sachin Gawade", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003827", "part": "word/document.xml", "start": 43, "end": 54, "type": "PERSON", "text": "Pravin Teli", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003827", "part": "word/document.xml", "start": 56, "end": 72, "type": "PERSON", "text": "Siddharth Jadhav", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003827", "part": "word/document.xml", "start": 74, "end": 89, "type": "PERSON", "text": "Tushar Gavankar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003828", "part": "word/document.xml", "start": 22, "end": 34, "type": "SEBI_REG_NO", "text": "INBI00000063", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003829", "part": "word/document.xml", "start": 5, "end": 26, "type": "CIN", "text": "L65920MH1994PLC080618", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003831", "part": "word/document.xml", "start": 0, "end": 18, "type": "COMPANY", "text": "ICICI Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003833", "part": "word/document.xml", "start": 0, "end": 79, "type": "POSTAL_ADDRESS", "text": "163, 5th Floor, H.T.Parekh Marg Backbay Reclamation Churchgate, Mumbai – 400020", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003833", "part": "word/document.xml", "start": 91, "end": 103, "type": "PHONE", "text": "022-68052182", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003833", "part": "word/document.xml", "start": 130, "end": 150, "type": "EMAIL", "text": "Ipocmg@icicibank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003833", "part": "word/document.xml", "start": 151, "end": 171, "type": "EMAIL", "text": "Ipocmg@icicibank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003833", "part": "word/document.xml", "start": 253, "end": 264, "type": "PERSON", "text": "Varun Badai", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003834", "part": "word/document.xml", "start": 22, "end": 34, "type": "SEBI_REG_NO", "text": "INBI00000004", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003835", "part": "word/document.xml", "start": 5, "end": 26, "type": "CIN", "text": "L65190GJ1994PLC021012", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003836", "part": "word/document.xml", "start": 0, "end": 17, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003837", "part": "word/document.xml", "start": 0, "end": 17, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003837", "part": "word/document.xml", "start": 19, "end": 78, "type": "POSTAL_ADDRESS", "text": "FIG-OPS Department – Lodha I Think Techno Campus, O-3 Level", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003838", "part": "word/document.xml", "start": 0, "end": 89, "type": "POSTAL_ADDRESS", "text": "Next to Kanjurmarg Railway Station, Kanjurmarg (East) Mumbai – 400042, Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003839", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91 22 30752929", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003839", "part": "word/document.xml", "start": 28, "end": 43, "type": "PHONE", "text": "+91 22 30752928", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003839", "part": "word/document.xml", "start": 48, "end": 63, "type": "PHONE", "text": "+91 22 30752914", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 26, "end": 55, "type": "EMAIL", "text": "siddharth.jadhav@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 56, "end": 85, "type": "EMAIL", "text": "siddharth.jadhav@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 106, "end": 132, "type": "EMAIL", "text": "sachin.gawade@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 133, "end": 159, "type": "EMAIL", "text": "sachin.gawade@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 179, "end": 202, "type": "EMAIL", "text": "eric.bacha@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 203, "end": 226, "type": "EMAIL", "text": "eric.bacha@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 247, "end": 275, "type": "EMAIL", "text": "tushar.gavankar@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 276, "end": 304, "type": "EMAIL", "text": "tushar.gavankar@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 329, "end": 354, "type": "EMAIL", "text": "pravin.teli2@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003840", "part": "word/document.xml", "start": 355, "end": 380, "type": "EMAIL", "text": "pravin.teli2@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003841", "part": "word/document.xml", "start": 16, "end": 26, "type": "PERSON", "text": "Eric Bacha", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003841", "part": "word/document.xml", "start": 28, "end": 41, "type": "PERSON", "text": "Sachin Gawade", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003841", "part": "word/document.xml", "start": 43, "end": 54, "type": "PERSON", "text": "Pravin Teli", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003841", "part": "word/document.xml", "start": 56, "end": 72, "type": "PERSON", "text": "Siddharth Jadhav", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003841", "part": "word/document.xml", "start": 74, "end": 89, "type": "PERSON", "text": "Tushar Gavankar", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003842", "part": "word/document.xml", "start": 22, "end": 34, "type": "SEBI_REG_NO", "text": "INBI00000063", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003843", "part": "word/document.xml", "start": 5, "end": 26, "type": "CIN", "text": "L65920MH1994PLC080618", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003859", "part": "word/document.xml", "start": 98, "end": 114, "type": "COMPANY", "text": "Kirtane & Pandit", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003860", "part": "word/document.xml", "start": 70, "end": 94, "type": "PERSON", "text": "Lalit Muljibhai Sarvaiya", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003861", "part": "word/document.xml", "start": 70, "end": 84, "type": "COMPANY", "text": "Kanj & Co. LLP", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003863", "part": "word/document.xml", "start": 0, "end": 16, "type": "COMPANY", "text": "Kirtane & Pandit", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003864", "part": "word/document.xml", "start": 0, "end": 30, "type": "POSTAL_ADDRESS", "text": "5th Floor, Wing A, Gopal House", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003865", "part": "word/document.xml", "start": 0, "end": 49, "type": "POSTAL_ADDRESS", "text": "S. No. 127/1B/1, Plot A1 Opp Harshal Hall Kothrud", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003866", "part": "word/document.xml", "start": 0, "end": 14, "type": "POSTAL_ADDRESS", "text": "Pune – 411 038", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003867", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003868", "part": "word/document.xml", "start": 27, "end": 58, "type": "EMAIL", "text": "parag.pansare@kirtanepandit.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003868", "part": "word/document.xml", "start": 59, "end": 90, "type": "EMAIL", "text": "parag.pansare@kirtanepandit.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003869", "part": "word/document.xml", "start": 11, "end": 30, "type": "PHONE", "text": "+ 91 (20) 6729 5100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003877", "part": "word/document.xml", "start": 0, "end": 16, "type": "COMPANY", "text": "Kirtane & Pandit", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003878", "part": "word/document.xml", "start": 0, "end": 22, "type": "POSTAL_ADDRESS", "text": "5th Floor, Gopal House", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003879", "part": "word/document.xml", "start": 0, "end": 68, "type": "POSTAL_ADDRESS", "text": "Opposite Harshal Hall, above HDFC Limited Karve Road, Pune – 411 038", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003880", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003881", "part": "word/document.xml", "start": 27, "end": 58, "type": "EMAIL", "text": "parag.pansare@kirtanepandit.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003881", "part": "word/document.xml", "start": 59, "end": 90, "type": "EMAIL", "text": "parag.pansare@kirtanepandit.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003882", "part": "word/document.xml", "start": 11, "end": 28, "type": "PHONE", "text": "+ 91 20 6729 5100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003887", "part": "word/document.xml", "start": 0, "end": 24, "type": "COMPANY", "text": "Hingne Tare & Associates", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003887", "part": "word/document.xml", "start": 25, "end": 99, "type": "POSTAL_ADDRESS", "text": "Flat No. 102, Sai Complex Shaniwar Peth, Pune – 411 030 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003888", "part": "word/document.xml", "start": 27, "end": 47, "type": "EMAIL", "text": "hingnetare@gmail.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003888", "part": "word/document.xml", "start": 48, "end": 68, "type": "EMAIL", "text": "hingnetare@gmail.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003894", "part": "word/document.xml", "start": 0, "end": 13, "type": "COMPANY", "text": "Citibank N.A.", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003895", "part": "word/document.xml", "start": 0, "end": 37, "type": "POSTAL_ADDRESS", "text": "8th Floor, Onyx Tower North Main Road", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003896", "part": "word/document.xml", "start": 0, "end": 48, "type": "POSTAL_ADDRESS", "text": "Koregaon Park, Pune – 411 001 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003897", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 20 6606 4494", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003898", "part": "word/document.xml", "start": 16, "end": 29, "type": "PERSON", "text": "Hitesh Ramani", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003900", "part": "word/document.xml", "start": 26, "end": 48, "type": "EMAIL", "text": "hitesh.ramani@citi.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003900", "part": "word/document.xml", "start": 49, "end": 71, "type": "EMAIL", "text": "hitesh.ramani@citi.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003901", "part": "word/document.xml", "start": 0, "end": 27, "type": "COMPANY", "text": "Export-Import Bank of India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003902", "part": "word/document.xml", "start": 0, "end": 23, "type": "POSTAL_ADDRESS", "text": "No. 401, 401(A), 401(B)", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003903", "part": "word/document.xml", "start": 0, "end": 32, "type": "POSTAL_ADDRESS", "text": "& 402, 402(A), 402(B), 4th Floor", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003904", "part": "word/document.xml", "start": 0, "end": 84, "type": "POSTAL_ADDRESS", "text": "Signature Building, Bhandarkar road Shivaji Nagar, Pune – 411 004 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003905", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 20 2640 3100", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003905", "part": "word/document.xml", "start": 44, "end": 56, "type": "PERSON", "text": "Chitra Raste", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003905", "part": "word/document.xml", "start": 155, "end": 175, "type": "EMAIL", "text": "pro@eximbankindia.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003905", "part": "word/document.xml", "start": 176, "end": 196, "type": "EMAIL", "text": "pro@eximbankindia.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003906", "part": "word/document.xml", "start": 0, "end": 21, "type": "COMPANY", "text": "IndusInd Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003906", "part": "word/document.xml", "start": 22, "end": 57, "type": "POSTAL_ADDRESS", "text": "2401 Gen Thimmayya Road, Cantonment", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003907", "part": "word/document.xml", "start": 0, "end": 14, "type": "POSTAL_ADDRESS", "text": "Pune – 411 001", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003908", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003909", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+91-20-26234000", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003909", "part": "word/document.xml", "start": 43, "end": 57, "type": "PERSON", "text": "Sharmila Joshi", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003909", "part": "word/document.xml", "start": 148, "end": 175, "type": "EMAIL", "text": "sharmila.joshi@indusind.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003909", "part": "word/document.xml", "start": 176, "end": 203, "type": "EMAIL", "text": "sharmila.joshi@indusind.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003910", "part": "word/document.xml", "start": 0, "end": 18, "type": "COMPANY", "text": "ICICI Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003911", "part": "word/document.xml", "start": 0, "end": 10, "type": "COMPANY", "text": "ICICI Bank", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003911", "part": "word/document.xml", "start": 12, "end": 83, "type": "POSTAL_ADDRESS", "text": "CBG, 3rd Floor, 362, Satguru House Next to Tanishq Showroom, CTS No. 30", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003912", "part": "word/document.xml", "start": 0, "end": 51, "type": "POSTAL_ADDRESS", "text": "Bund Garden Road, Pune – 411 001 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003913", "part": "word/document.xml", "start": 11, "end": 26, "type": "PHONE", "text": "+ 91 8879770456", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003913", "part": "word/document.xml", "start": 43, "end": 55, "type": "PERSON", "text": "Cherag Gyara", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003913", "part": "word/document.xml", "start": 147, "end": 173, "type": "EMAIL", "text": "cherag.gyara@icicibank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003913", "part": "word/document.xml", "start": 174, "end": 200, "type": "EMAIL", "text": "cherag.gyara@icicibank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003914", "part": "word/document.xml", "start": 0, "end": 17, "type": "COMPANY", "text": "HDFC Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003915", "part": "word/document.xml", "start": 0, "end": 44, "type": "POSTAL_ADDRESS", "text": "5th Floor, Marathon IT Park Bund Garden Road", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003916", "part": "word/document.xml", "start": 0, "end": 14, "type": "POSTAL_ADDRESS", "text": "Pune – 411 001", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003917", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003918", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 20 6769 4648", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003918", "part": "word/document.xml", "start": 44, "end": 58, "type": "PERSON", "text": "Manisha Shukla", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003919", "part": "word/document.xml", "start": 26, "end": 53, "type": "EMAIL", "text": "manisha.shukla@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003919", "part": "word/document.xml", "start": 54, "end": 81, "type": "EMAIL", "text": "manisha.shukla@hdfcbank.com", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003920", "part": "word/document.xml", "start": 0, "end": 19, "type": "COMPANY", "text": "State Bank of India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003921", "part": "word/document.xml", "start": 0, "end": 42, "type": "POSTAL_ADDRESS", "text": "Tara Chambers, Mumbai-Pune Road, Wakdewadi", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003922", "part": "word/document.xml", "start": 0, "end": 14, "type": "POSTAL_ADDRESS", "text": "Pune – 411 003", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003923", "part": "word/document.xml", "start": 0, "end": 18, "type": "POSTAL_ADDRESS", "text": "Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003924", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 20 2561 8211", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003924", "part": "word/document.xml", "start": 44, "end": 58, "type": "PERSON", "text": "Tushar Wakhele", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003925", "part": "word/document.xml", "start": 26, "end": 47, "type": "EMAIL", "text": "rm6.ifbpune@sbi.co.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003925", "part": "word/document.xml", "start": 48, "end": 69, "type": "EMAIL", "text": "rm6.ifbpune@sbi.co.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003926", "part": "word/document.xml", "start": 4, "end": 24, "type": "COMPANY", "text": "Federal Bank Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003926", "part": "word/document.xml", "start": 25, "end": 125, "type": "POSTAL_ADDRESS", "text": "Ground Floor, Kubera Chambers Opp. Sancheti Hospital Shivajinagar, Pune – 41l 005 Maharashtra, India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003927", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+ 91 91586 40360", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003928", "part": "word/document.xml", "start": 16, "end": 37, "type": "PERSON", "text": "Ashish Mathew Pulloor", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003930", "part": "word/document.xml", "start": 26, "end": 52, "type": "EMAIL", "text": "ashishmp@federalbank.co.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003930", "part": "word/document.xml", "start": 53, "end": 79, "type": "EMAIL", "text": "ashishmp@federalbank.co.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003931", "part": "word/document.xml", "start": 0, "end": 21, "type": "COMPANY", "text": "Bajaj Finance Limited", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003933", "part": "word/document.xml", "start": 0, "end": 52, "type": "POSTAL_ADDRESS", "text": "Unit no. 1601, B- wing BKC, Mumbai Maharashtra India", "stratum": "A_dense"}
+{"record_id": "word/document.xml:p003934", "part": "word/document.xml", "start": 11, "end": 27, "type": "PHONE", "text": "+91 20 7157 6403", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003934", "part": "word/document.xml", "start": 44, "end": 54, "type": "PERSON", "text": "Anand Soni", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003934", "part": "word/document.xml", "start": 152, "end": 178, "type": "EMAIL", "text": "anand.soni@bajajfinserv.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003934", "part": "word/document.xml", "start": 179, "end": 205, "type": "EMAIL", "text": "anand.soni@bajajfinserv.in", "stratum": "A_dense+C_structured"}
+{"record_id": "word/document.xml:p003940", "part": "word/document.xml", "start": 137, "end": 157, "type": "COMPANY", "text": "CARE Ratings Limited", "stratum": "A_dense"}

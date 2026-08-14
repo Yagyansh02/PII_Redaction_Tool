@@ -1,0 +1,9 @@
+python-docx==1.2.0
+lxml==5.4.0
+Faker==37.4.0
+Pillow==11.3.0
+spacy==3.8.7
+en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl
+fastapi==0.139.2
+uvicorn==0.51.0
+python-multipart==0.0.32
