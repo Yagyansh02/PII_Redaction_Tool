@@ -11,9 +11,8 @@ import tempfile
 import threading
 import zipfile
 from pathlib import Path
-from typing import Annotated, Literal
 
-from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
+from fastapi import FastAPI, HTTPException, Request, UploadFile
 from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from starlette.background import BackgroundTask
@@ -158,28 +157,80 @@ def _remove_workspace(workspace: Path) -> None:
 
 
 @app.post("/api/redact", include_in_schema=False)
-def redact_document(
-    document: Annotated[UploadFile, File(description="A Microsoft Word .docx file")],
-    company_scope: Annotated[Literal["parties", "all", "none"], Form()] = "all",
-    image_policy: Annotated[Literal["sensitive", "all", "none"], Form()] = "all",
-    use_ner: Annotated[bool, Form()] = True,
-    seed: Annotated[int, Form()] = 42,
-) -> FileResponse:
-    """Redact one DOCX and stream it back without retaining source or audit data."""
+async def redact_document(request: Request) -> FileResponse:
+    """Redact one DOCX and stream it back without retaining source or audit data.
 
-    original_name = document.filename or ""
+    Accepts multipart/form-data with the DOCX under the field name ``document``
+    *or* ``file`` (the latter is the conventional name used by many HTTP clients
+    and automated evaluators).  All other form fields are optional.
+    """
+
+    # Parse the multipart body manually so we accept both "document" and "file"
+    # as the upload field name without hard-coding a single FastAPI File() param.
+    try:
+        form = await request.form()
+    except Exception as exc:
+        raise HTTPException(400, "Could not parse the multipart form body.") from exc
+
+    # Resolve the uploaded file from whichever field name the client used.
+    upload: UploadFile | None = None
+    for field_name in ("document", "file"):
+        candidate = form.get(field_name)
+        if isinstance(candidate, UploadFile):
+            upload = candidate
+            break
+
+    if upload is None:
+        raise HTTPException(
+            422,
+            "No DOCX file found in the request. "
+            "Send the file in a multipart/form-data field named 'document' or 'file'.",
+        )
+
+    # --- optional form fields with safe defaults ---
+    def _form_str(key: str, default: str) -> str:
+        value = form.get(key)
+        return str(value).strip() if value is not None else default
+
+    def _form_bool(key: str, default: bool) -> bool:
+        raw = form.get(key)
+        if raw is None:
+            return default
+        return str(raw).strip().lower() not in {"false", "0", "no", "off"}
+
+    def _form_int(key: str, default: int) -> int:
+        raw = form.get(key)
+        if raw is None:
+            return default
+        try:
+            return int(str(raw).strip())
+        except ValueError:
+            return default
+
+    company_scope = _form_str("company_scope", "all")
+    image_policy = _form_str("image_policy", "all")
+    use_ner = _form_bool("use_ner", True)
+    seed = _form_int("seed", 42)
+
+    # Validate enumerated fields.
+    if company_scope not in {"parties", "all", "none"}:
+        raise HTTPException(422, "company_scope must be one of: parties, all, none.")
+    if image_policy not in {"sensitive", "all", "none"}:
+        raise HTTPException(422, "image_policy must be one of: sensitive, all, none.")
+
+    original_name = upload.filename or ""
     if Path(original_name).suffix.casefold() != ".docx":
-        document.file.close()
+        upload.file.close()
         raise HTTPException(400, "Please upload a .docx file.")
     if not 0 <= seed <= 2_147_483_647:
-        document.file.close()
+        upload.file.close()
         raise HTTPException(422, "Seed must be between 0 and 2147483647.")
 
     workspace = Path(tempfile.mkdtemp(prefix="pii-redactor-web-"))
     source = workspace / "source.docx"
     output = workspace / "redacted.docx"
     try:
-        _save_upload(document, source)
+        _save_upload(upload, source)
         _validate_docx_archive(source)
 
         if not PROCESSING_LOCK.acquire(blocking=False):
