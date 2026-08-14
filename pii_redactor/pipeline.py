@@ -332,7 +332,7 @@ class RedactionPipeline:
 
         for record_id, replacements in modifications.items():
             DocxPackage.apply_spans(records_by_id[record_id], replacements)
-        self._assert_person_surnames_replaced(detections, records_by_id)
+        self._assert_person_surnames_replaced(detections, records_by_id, lowercase_vocabulary)
         image_redactor.apply(package, image_redactions)
         package.mark_redacted()
         package.write(destination)
@@ -454,18 +454,28 @@ class RedactionPipeline:
 
     @staticmethod
     def _assert_person_surnames_replaced(
-        detections: list[Detection], records_by_id: dict[str, TextRecord]
+        detections: list[Detection],
+        records_by_id: dict[str, TextRecord],
+        lowercase_vocabulary: set[str] | None = None,
     ) -> None:
+        vocab = lowercase_vocabulary or set()
         surnames: dict[str, str] = {}
         for detection in detections:
             if detection.span.pii_type != "PERSON":
                 continue
             canonical = str(detection.span.metadata.get("canonical", detection.span.text))
-            tokens = re.findall(r"[A-Za-z][A-Za-z'’-]*", canonical)
+            tokens = re.findall(r"[A-Za-z][A-Za-z'\u2019-]*", canonical)
             if len(tokens) < 2:
                 continue
             surname = tokens[-1]
             if len(surname) < 3:
+                continue
+            # Skip "surnames" that are actually common English words found in
+            # the document's own lowercase vocabulary.  Words like "newspaper",
+            # "international", "national" etc. can appear as the last token of
+            # a misclassified NER PERSON entity, and searching for them in the
+            # redacted output would cause false-positive leak errors.
+            if surname.casefold() in vocab:
                 continue
             surnames.setdefault(surname.casefold(), surname)
         current = "\n".join(record.current_text for record in records_by_id.values())

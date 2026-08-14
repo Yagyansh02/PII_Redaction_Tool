@@ -20,7 +20,7 @@ PERSON_VETO_TOKENS = {
     "account", "address", "ahilyanagar", "bank", "bhavan", "branch", "building", "cagr",
     "apartment", "birdewadi", "cap", "chakan", "chambers", "city", "company", "conductors", "corporation", "depository",
     "district", "facility", "floor", "fund", "house", "industrial", "language", "listing",
-    "lok", "margin", "mauje", "nagar", "office", "parel", "park", "participant", "pat",
+    "lok", "margin", "mauje", "nagar", "newspaper", "office", "parel", "park", "participant", "pat",
     "marg", "no", "price", "regional", "registration", "sabha", "scheme", "sebi", "sector", "showroom", "supa", "suraksha",
     "taluka", "transformer", "trust", "urja",
 }
