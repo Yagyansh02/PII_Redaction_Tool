@@ -12,7 +12,8 @@ import threading
 import zipfile
 from pathlib import Path
 
-from fastapi import FastAPI, HTTPException, Request, UploadFile
+from fastapi import FastAPI, HTTPException, Request
+from starlette.datastructures import UploadFile
 from fastapi.responses import FileResponse, JSONResponse, Response
 from fastapi.staticfiles import StaticFiles
 from starlette.background import BackgroundTask
@@ -173,10 +174,12 @@ async def redact_document(request: Request) -> FileResponse:
         raise HTTPException(400, "Could not parse the multipart form body.") from exc
 
     # Resolve the uploaded file from whichever field name the client used.
+    # request.form() returns starlette.datastructures.UploadFile instances, so
+    # we check against that base class (not fastapi.UploadFile which is a subclass).
     upload: UploadFile | None = None
     for field_name in ("document", "file"):
         candidate = form.get(field_name)
-        if isinstance(candidate, UploadFile):
+        if isinstance(candidate, UploadFile) or hasattr(candidate, "read"):
             upload = candidate
             break
 
