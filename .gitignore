@@ -5,6 +5,12 @@ __pycache__/
 *.pdf
 .env
 
+# Local CLI run artifacts: detections.jsonl and redaction_map.json contain
+# the original, unredacted PII from whatever document was processed and must
+# never be committed.
+output/*.jsonl
+output/redaction_map.json
+
 
 DEPLOYMENT.md
 PLAN.md

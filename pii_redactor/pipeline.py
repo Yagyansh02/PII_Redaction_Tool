@@ -111,13 +111,18 @@ class RedactionPipeline:
         ner_by_record: dict[str, list[Span]] = {}
         debug_traces: list[dict[str, object]] = []
         if ner is not None and ner.available:
-            for record in package.records:
-                context = DetectionContext(record.record_id, record.part_name, metadata=record.metadata)
-                proposed_ner_spans = ner.detect(record.text, context)
+            contexts = [
+                DetectionContext(record.record_id, record.part_name, metadata=record.metadata)
+                for record in package.records
+            ]
+            batched = ner.detect_batch(
+                [(record.text, context) for record, context in zip(package.records, contexts)]
+            )
+            for record, (proposed_ner_spans, trace_log) in zip(package.records, batched):
                 if self._debug_matches(record):
                     debug_traces.extend(
                         {"record_id": record.record_id, "stage": "ner_filter", **trace}
-                        for trace in ner.last_trace
+                        for trace in trace_log
                     )
                 ner_spans = [
                     span for span in proposed_ner_spans

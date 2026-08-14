@@ -100,11 +100,47 @@ class SpacyNerDetector(Detector):
         return self.nlp is not None
 
     def detect(self, text: str, context: DetectionContext | None = None) -> list[Span]:
-        self.last_trace = []
         if self.nlp is None or not text.strip():
+            self.last_trace = []
             return []
         doc = self.nlp(text)
+        results, trace_log = self._process_doc(doc, text, context)
+        self.last_trace = trace_log
+        return results
+
+    def detect_batch(
+        self, items: list[tuple[str, DetectionContext | None]]
+    ) -> list[tuple[list[Span], list[dict[str, object]]]]:
+        """Detect over many records in one spaCy pass.
+
+        Calling ``nlp(text)`` per record (thousands of times for a large
+        document) pays spaCy's per-call overhead on every paragraph;
+        ``nlp.pipe`` amortizes it across the whole batch and is
+        substantially faster for documents with many short records.
+        """
+
+        if self.nlp is None:
+            self.last_trace = []
+            return [([], []) for _ in items]
+        texts = [text for text, _ in items]
+        docs = self.nlp.pipe(texts)
+        output: list[tuple[list[Span], list[dict[str, object]]]] = []
+        for (text, context), doc in zip(items, docs):
+            if not text.strip():
+                output.append(([], []))
+                continue
+            output.append(self._process_doc(doc, text, context))
+        if output:
+            self.last_trace = output[-1][1]
+        else:
+            self.last_trace = []
+        return output
+
+    def _process_doc(
+        self, doc: Any, text: str, context: DetectionContext | None
+    ) -> tuple[list[Span], list[dict[str, object]]]:
         results: list[Span] = []
+        trace_log: list[dict[str, object]] = []
 
         def trace(
             candidate: str,
@@ -114,7 +150,7 @@ class SpacyNerDetector(Detector):
             status: str,
             rule: str,
         ) -> None:
-            self.last_trace.append(
+            trace_log.append(
                 {
                     "candidate": candidate,
                     "entity_label": label,
@@ -313,4 +349,4 @@ class SpacyNerDetector(Detector):
                 )
                 occupied.add(key)
             trace(value, "ORG_CANDIDATE", match.start(1), match.end(1), "accepted", "descriptive_organization_context")
-        return results
+        return results, trace_log

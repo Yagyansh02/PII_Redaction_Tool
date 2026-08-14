@@ -1,12 +1,19 @@
-# Deployment runtime uses the same en_core_web_lg model as local/CLI
-# (requirements.txt) so NER precision/recall behavior does not diverge
-# between environments. Requires a Railway plan/instance sized for
-# ~1.5-2 GB RAM at model-load time (see README/TECHNICAL_NOTES).
+# Leaner deployment runtime: the free/trial Railway tier caps memory around
+# 512 MB, well under what en_core_web_lg needs (~1.5-2 GB at load). This uses
+# spaCy's small English model instead. The gap that opens between this and
+# the reference requirements.txt (en_core_web_lg) environment is deliberately
+# narrowed with domain-specific precision/recall guards in
+# pii_redactor/detectors/ner.py (PERSON_VETO_TOKENS) and
+# pii_redactor/detectors/gazetteer.py (_seed_transaction_people), added and
+# verified specifically against en_core_web_sm's failure modes -- see git log
+# for the "Bidders" / "HUF" / "Shetty" fixes. If the Railway plan is ever
+# upgraded with more RAM, switch back to en_core_web_lg here to match
+# requirements.txt exactly and retire that divergence.
 lxml==5.4.0
 Faker==37.4.0
 Pillow==11.3.0
 spacy==3.8.7
-en-core-web-lg @ https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.8.0/en_core_web_lg-3.8.0-py3-none-any.whl
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 fastapi==0.139.2
 uvicorn==0.51.0
 python-multipart==0.0.32

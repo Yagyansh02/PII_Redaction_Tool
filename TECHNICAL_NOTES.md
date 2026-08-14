@@ -38,15 +38,27 @@ users do not need non-confidential illustrations preserved.
 
 `Dockerfile` installs the native Tesseract and zbar commands and launches one
 Uvicorn worker, exposing a `/health` probe. The cloud image installs
-`requirements-cloud.txt` with `en_core_web_lg`, matching the reference
-CLI/evaluation environment (`requirements.txt`), so the published metrics
-describe the same model that actually serves requests in production; peak
-memory still depends on the uploaded document and must be monitored. The host
-must be sized for `en_core_web_lg` (~1.5-2 GB RAM at model-load time, ~560 MB
-on disk for the model artifacts) — a free/demo-tier instance capped near
-512 MB will OOM. `SpacyNerDetector` caches the loaded model at process scope
-(`pii_redactor/detectors/ner.py`) so it is loaded once per worker process, not
-once per request. Public demo hosting is not appropriate for real confidential
+`requirements-cloud.txt` with `en_core_web_sm` to target a free/trial-tier
+instance (~512 MB RAM) — `en_core_web_lg` needs ~1.5-2 GB at model-load time
+and would OOM there. The reference CLI/evaluation environment
+(`requirements.txt`) uses `en_core_web_lg`; the published metrics describe
+that large-model run, not the deployed small-model one. Rather than leave
+that as an unverified gap, `en_core_web_sm`'s specific failure modes on this
+document class (SEBI/IPO prospectus text) were reproduced locally in an
+isolated venv matching `requirements-cloud.txt` exactly and closed with
+targeted guards: `PERSON_VETO_TOKENS` in `pii_redactor/detectors/ner.py`
+(generic terms like "Bidders"/"HUF" that the small model shape-matches as
+PERSON) and `_seed_transaction_people` in
+`pii_redactor/detectors/gazetteer.py` (real surnames the small model
+mislabels as ORG or misses entirely in "transfer of shares to X from Y" list
+sentences). `SpacyNerDetector` caches the loaded model at process scope
+(`pii_redactor/detectors/ner.py`) so it is loaded once per worker process,
+not once per request, and NER runs batched via `nlp.pipe()` rather than one
+`nlp()` call per paragraph. If the deployment is ever moved to a plan with
+more RAM, switch `requirements-cloud.txt` back to `en_core_web_lg` to match
+`requirements.txt` and retire the divergence. Peak memory still depends on
+the uploaded document and must be monitored. Public demo hosting is not
+appropriate for real confidential
 documents without authentication, access controls, provider/DPA review,
 retention/log review, abuse controls, and a fresh security assessment.
 
